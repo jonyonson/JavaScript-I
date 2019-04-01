@@ -96,6 +96,6 @@ console.log(oldCars.length);
 // ==== Challenge 6 ====
 // A buyer is interested in seeing only BMW and Audi cars within the inventory.  Return an array that only contains BMW and Audi cars.  Once you have populated the BMWAndAudi array, use JSON.stringify() to show the results of the array in the console.
 let BMWAndAudi = inventory.filter(car => {
-  car.car_make === 'BMW' || car.car_make === 'Audi';
+  return car.car_make === 'BMW' || car.car_make === 'Audi';
 });
 console.log(BMWAndAudi);
